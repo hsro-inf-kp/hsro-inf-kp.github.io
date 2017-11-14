@@ -49,5 +49,23 @@ def user3 = new User("Max","Mustermann",Option(null))
 
 user1.getAddress().flatMap(_.getHouseNumber()) //Some(1b)
 user2.getAddress().flatMap(_.getHouseNumber()) //None
-user3.getAddress().flatMap(_.getHouseNumber()) //None
+user3.getAddress().flatMap(_.getHouseNumber()) //None 
 ```
+
+### Future
+The _Future_ type is used to run programm steps concurrently. By creating a Future it
+starts running asynchronous and will return a value in some time. The _onComplete_
+function accepts a callback, that gets executed, when the asynchronous function has
+finished. The result value can be an instance of _Success_ or _Failure_ class, depending on whether the request was successful or not. A simple HTTP GET Request could be implemented like this.
+
+```scala
+val f = Future {
+  Http("https://jsonplaceholder.typicode.com/posts/22").asString
+}
+f.onComplete {
+  case Success(value) => println(value)
+  case Failure(e) => e.printStackTrace()
+}
+println("This gets printed before the HTTP Response value");
+```
+
