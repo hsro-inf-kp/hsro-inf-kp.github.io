@@ -19,7 +19,7 @@ either be an instance of the _Some_ class or the _None_. As the following exampl
 the Option type provides a factory method, that creates None if the given parameter
 is null, otherwise it creates an instance of Some.
 
-```Java
+```scala
 val greeting: Option[String] = Some("Hello world")
 val greeting2: Option[String] = None
 
@@ -31,7 +31,7 @@ As you can see it´s really simple to create a new Option type. By wrapping the
 value that may be null with the Option, it is possible to work with it without any
 null-checking.This can be achieved by using flatMap and Options.
 
-```Java
+```scala
 class User(var firstName:String, var lastName:String,var address:Option[Address]){
   def getAddress():Option[Address] = return this.address
 }
@@ -68,4 +68,10 @@ f.onComplete {
 }
 println("This gets printed before the HTTP Response value");
 ```
-
+Since the the future is not blocking the programm execution, the println command
+gets executed before the onComplete callback. The Future type also provides a flatMap
+method, that allows us to control the execution order of multiple Futures.
+To test this Snippet e.g in an scala worksheet, you may have to add the following line to wait until the Futere has returned a value. Otherwise the executing thread has stopped, before the async request has finished and now output is visible.
+```scala
+Await.result(f, 10 seconds)
+```
