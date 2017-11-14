@@ -1,6 +1,5 @@
 # Concepts of Programming Languages (KP)
-
-_Elective for [CS](https://www.fh-rosenheim.de/technik/informatik-mathematik/informatik-master/) graduate students at the [University of Applied Sciences Rosenheim](https://www.fh-rosenheim.de). --- Fachwissenschaftliches Wahlpflichtmodul im [Masterstudiengang Informatik](https://www.fh-rosenheim.de/technik/informatik-mathematik/informatik-masterr/) an der [Hochschule Rosenheim](www.fh-rosenheim.de)._
+[Scala Basics](/02_ScalaBasics.html).
 
 
 ## Class Schedule
