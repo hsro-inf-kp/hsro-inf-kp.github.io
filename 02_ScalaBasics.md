@@ -68,10 +68,24 @@ f.onComplete {
 }
 println("This gets printed before the HTTP Response value");
 ```
+Otherwise the executing thread has stopped, before the async request has finished and now output is visible.
+```scala
+Await.result(f, 10 seconds)
+```
 Since the the future is not blocking the programm execution, the println command
 gets executed before the onComplete callback. The Future type also provides a flatMap
 method, that allows us to control the execution order of multiple Futures.
-To test this Snippet e.g in an scala worksheet, you may have to add the following line to wait until the Futere has returned a value. Otherwise the executing thread has stopped, before the async request has finished and now output is visible.
+To test this Snippet e.g in an scala worksheet, you may have to add the following line to wait until the Futere has returned a value. 
+
 ```scala
-Await.result(f, 10 seconds)
+def getUserID() : Future[String] = {...}
+def getUserAddress(userID: String) : Future[Address] = {...}
+def createInvoice(address:Address) : Future[Invoice] = {...}
+
+val futResult: Future[Invoice] =
+  getUserID().flatMap( userID =>
+    getUserAddress(userID).flatMap( address =>
+      createInvioce(address)
+    )
+)
 ```
