@@ -1,6 +1,5 @@
 ## Scala Basics Exercise
 
-
 ### Option
 
 Write a _CarService_ , that returns an object of the type _Car_ by a _CarID_.
@@ -18,12 +17,16 @@ Then refactor your code and use the Option type of scala.
 ### Future
 For this exercise we are using a simple JSON Server which can be acessed with
 https://my-json-server.typicode.com/anfalt/MonadsInScala/. 
-There is a REST Endpoint called for Customers
-(https://my-json-server.typicode.com/anfalt/MonadsInScala/Customers).
-First build a simple Http GET Request and wrap it in a Future. Than write a HTTPUtil class, that provides a sendGetRequestMethod with the following signature: 
--Create a simple get Request for retrieving all customers by using a Future and scalaj-http (https://github.com/scalaj/scalaj-http) 
+There is a REST Endpoint called for Customers and Invoices:
+https://my-json-server.typicode.com/anfalt/MonadsInScala/Customers
+https://my-json-server.typicode.com/anfalt/MonadsInScala/Invoices
+First build a simple Http GET Request and wrap it in a Future. Than write a HTTPUtil class, that provides a sendGetRequestMethod.
+After that request all Invoices from the REST Endpoint and calculate the average  
 
 
+
+
+with the following signature: 
 ```scala
 sendGetRequest(url: String, successCallBack: HttpResponse[String] => Unit, failureCallback: Throwable=> Unit): Unit
 ```
