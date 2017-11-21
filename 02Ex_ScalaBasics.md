@@ -16,8 +16,17 @@ Then refactor your code and use the Option type of scala.
  - Refactor your code and use the Option type 
    
 ### Future
-For this exercise we are using a simple JSON Server which can be acessed with https://my-json-server.typicode.com/anfalt/MonadsInScala/. There is a REST Endpoint called for Customers (https://my-json-server.typicode.com/anfalt/MonadsInScala/Customers).
-First build a simple Http GET Request and wrap it in a Future. Than write a HTTPUtil class, that provides a sendGetRequestMethod and has a url and a callback a parameter. The Callback  
+For this exercise we are using a simple JSON Server which can be acessed with
+https://my-json-server.typicode.com/anfalt/MonadsInScala/. 
+There is a REST Endpoint called for Customers
+(https://my-json-server.typicode.com/anfalt/MonadsInScala/Customers).
+First build a simple Http GET Request and wrap it in a Future. Than write a HTTPUtil class, that provides a sendGetRequestMethod with the following signature: 
+-Create a simple get Request for retrieving all customers by using a Future and scalaj-http (https://github.com/scalaj/scalaj-http) 
 
--Create a simple get Request for retrieving all customers by using a Future and scalaj-http (https://github.com/scalaj/scalaj-http)  
+
+```scala
+sendGetRequest(url: String, successCallBack: HttpResponse[String] => Unit, failureCallback: Throwable=> Unit): Unit
+```
+
+  
 
