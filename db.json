@@ -28,7 +28,6 @@
   {
   "id":1,
   "CustomerID":3,
-  "InvoiceDate":"10-11-2017",
   "Items":[
      {
        "Title":"Dummy DVD",
@@ -53,7 +52,6 @@
   {
   "id":2,
   "CustomerID":1,
-  "InvoiceDate":"24-11-2017",
   "Items":[
      {
        "Title":"Dummy T-Shirt",
@@ -78,7 +76,6 @@
   {
   "id":3,
   "CustomerID":4,
-  "InvoiceDate":"24-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -103,7 +100,6 @@
   {
   "id":4,
   "CustomerID":2,
-  "InvoiceDate":"24-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -128,7 +124,6 @@
   {
   "id":5,
   "CustomerID":1,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -153,7 +148,6 @@
   {
   "id":6,
   "CustomerID":2,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -178,7 +172,6 @@
   {
   "id":7,
   "CustomerID":3,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -203,7 +196,6 @@
   {
   "id":8,
   "CustomerID":4,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -229,7 +221,6 @@
     {
   "id":9,
   "CustomerID":2,
-  "InvoiceDate":"10-11-2017",
   "Items":[
      {
        "Title":"Dummy DVD",
@@ -254,7 +245,6 @@
   {
   "id":10,
   "CustomerID":4,
-  "InvoiceDate":"24-11-2017",
   "Items":[
      {
        "Title":"Dummy T-Shirt",
@@ -279,7 +269,6 @@
   {
   "id":11,
   "CustomerID":3,
-  "InvoiceDate":"24-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -304,7 +293,6 @@
   {
   "id":12,
   "CustomerID":1,
-  "InvoiceDate":"24-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -329,7 +317,6 @@
   {
   "id":13,
   "CustomerID":4,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -354,7 +341,6 @@
   {
   "id":14,
   "CustomerID":3,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -379,7 +365,6 @@
   {
   "id":15,
   "CustomerID":1,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
@@ -404,7 +389,6 @@
   {
   "id":16,
   "CustomerID":2,
-  "InvoiceDate":"4-09-2017",
   "Items":[
      {
        "Title":"Dummy CD",
