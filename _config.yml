@@ -1,8 +1,8 @@
 title: "Monads in Scala"
 email: andreas.faltermaier@gmail.com
 description: "Monads in Scala"
-baseurl: "https://anfalt.github.io"
-url: "https://anfalt.github.io"
+baseurl: "https://anfalt.github.io/MonadsInScala"
+url: "https://anfalt.github.io/MonadsInScala"
 exclude: ["LICENSE", "Remarks.md"]
 github_username: ["anfalt"]
 
