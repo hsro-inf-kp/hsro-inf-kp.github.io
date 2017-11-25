@@ -403,7 +403,7 @@
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":1
+       "Amount":1,
        "PricePerUnit":499.99,
        "Currency":"EUR"
      }
