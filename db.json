@@ -2,25 +2,25 @@
    {"id":1,
     "preName":"Max",
 	"surName":"Mustermann",
-	"Age":"45",
+	"Age":45,
 	"PLZ":"83022"
    },
    {"id":2,
     "preName":"Hansi",
 	"surName":"Hinterseer",
-	"Age":"55",
+	"Age":55,
 	"PLZ":"83022"
    },
    {"id":3,
     "preName":"Andrea",
 	"surName":"Berg",
-	"Age":"52",
+	"Age":52,
 	"PLZ":"83022"
    },
    {"id":4,
     "preName":"Florian",
 	"surName":"Silbereisen",
-	"Age":"60",
+	"Age":60,
 	"PLZ":"83022"
    }
 ],
@@ -31,19 +31,19 @@
   "Items":[
      {
        "Title":"Dummy DVD",
-       "Amount":"1",
-       "PricePerUnit":"9.99",
+       "Amount":1,
+       "PricePerUnit":9.99,
        "Currency":"EUR"
      }, {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"669.99",
+       "Amount":1
+       "PricePerUnit":669.99
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Buch",
-       "Amount":"3",
-       "PricePerUnit":"9.99",
+       "Amount":3,
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }
     
@@ -55,19 +55,19 @@
   "Items":[
      {
        "Title":"Dummy T-Shirt",
-       "Amount":"2",
-       "PricePerUnit":"19.99",
+       "Amount":2
+       "PricePerUnit":19.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Hemd",
-       "Amount":"3",
-       "PricePerUnit":"39.49",
+       "Amount":3,
+       "PricePerUnit":39.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Jeans",
-       "Amount":"1",
-       "PricePerUnit":"99.99",
+       "Amount":1
+       "PricePerUnit":99.99
        "Currency":"EUR"
      }
     
@@ -79,19 +79,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2,
+       "PricePerUnit":9.99,
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -103,19 +103,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -127,19 +127,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -151,19 +151,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -175,19 +175,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -199,19 +199,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -224,19 +224,19 @@
   "Items":[
      {
        "Title":"Dummy DVD",
-       "Amount":"1",
-       "PricePerUnit":"9.99",
+       "Amount":1
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"669.99",
+       "Amount":1
+       "PricePerUnit":669.99
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Buch",
-       "Amount":"3",
-       "PricePerUnit":"9.99",
+       "Amount":3,
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }
     
@@ -248,19 +248,19 @@
   "Items":[
      {
        "Title":"Dummy T-Shirt",
-       "Amount":"2",
-       "PricePerUnit":"19.99",
+       "Amount":2
+       "PricePerUnit":19.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Hemd",
-       "Amount":"3",
-       "PricePerUnit":"39.49",
+       "Amount":3,
+       "PricePerUnit":39.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Jeans",
-       "Amount":"1",
-       "PricePerUnit":"99.99",
+       "Amount":1
+       "PricePerUnit":99.99
        "Currency":"EUR"
      }
     
@@ -272,19 +272,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -296,19 +296,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -320,19 +320,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -344,19 +344,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -368,19 +368,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
@@ -392,19 +392,19 @@
   "Items":[
      {
        "Title":"Dummy CD",
-       "Amount":"2",
-       "PricePerUnit":"9.99",
+       "Amount":2
+       "PricePerUnit":9.99
        "Currency":"EUR"
      }, {
        "Title":"Dummy Tastatur",
-       "Amount":"3",
-       "PricePerUnit":"29.49",
+       "Amount":3,
+       "PricePerUnit":29.49
        "Currency":"EUR"
      },
      {
        "Title":"Dummy Laptop",
-       "Amount":"1",
-       "PricePerUnit":"499.99",
+       "Amount":1
+       "PricePerUnit":499.99
        "Currency":"EUR"
      }
     
