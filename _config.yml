@@ -1,10 +1,10 @@
-title: "Konzepte der Programmiersprachen (KP)"
-email: korbinian.riedhammer@fh-rosenheim.de
-description: "Materials for KP"
-baseurl: ""
-url: "https://hsro-inf-kp.github.io"
+title: "Monads in Scala"
+email: andreas.faltermaier@gmail.com
+description: "Monads in Scala"
+baseurl: "https://anfalt.github.io/MonadsInScala"
+url: "https://anfalt.github.io/MonadsInScala"
 exclude: ["LICENSE", "Remarks.md"]
-github_username: ["sikoried"]
+github_username: ["anfalt"]
 
 # Build settings
 markdown: kramdown
@@ -15,3 +15,5 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+theme: jekyll-theme-cayman
