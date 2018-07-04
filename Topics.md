@@ -44,6 +44,8 @@ Incomplete List of Topics
 - advanced processor features (AVX, pinning, caching, ...?)
 - properties https://martinfowler.com/apsupp/properties.pdf http://hillside.net/europe/EuroPatterns/files/DIY_Reflection.pdf http://steve-yegge.blogspot.de/2008/10/universal-design-pattern.html
 
+- ORM
+
 # Languages
 - Scala
 - C++ (17)
